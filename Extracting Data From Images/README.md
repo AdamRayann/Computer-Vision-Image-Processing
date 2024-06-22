@@ -23,22 +23,22 @@ Return whether a region with EMD less than a specified threshold (260) is found.
 ![image](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/3c30c1db-076f-43b9-aa17-d889ff28255a)
 
 
- d) Recognizing Digits in the Histogram
+ #### d) Recognizing Digits in the Histogram
  Goal: Identify the highest number along the vertical axis of the histogram.
  Steps:
 Apply the compare_hist function to the histogram image with digit images from 9 to 0.
 The first detected number is the recognized digit.
- e) Quantization and Thresholding
+ #### e) Quantization and Thresholding
  Goal: Quantize the histogram image to simplify it for bar height measurement.
  Steps:
 Quantize the image to reduce the number of gray levels.
 Threshold the quantized image to convert it to black and white, simplifying the identification of histogram bars.
- f) Measuring Bar Heights
+ #### f) Measuring Bar Heights
  Goal: Determine the height of each bar in the histogram.
  Steps:
 Define a function to measure the height of each bar in pixels.
 Iterate over the bars and calculate their heights based on the black and white thresholded image.
- g) Calculating Number of Students per Bin
+ #### g) Calculating Number of Students per Bin
  Goal: Calculate the number of students per bin using the recognized digit and bar heights.
  Steps:
 Use the formula: #students-per-bin = round(max-student-num * bin-height / max-bin-height)
@@ -56,45 +56,45 @@ This exercise demonstrated the application of histogram matching, quantization, 
 Parameter Tuning: Adjusting parameters like quantization levels and EMD threshold was crucial for accurate results.
 Future Improvements: Further refine the digit recognition process and explore alternative quantization methods for better accuracy.
 ## Screenshots:
-input :
+## input :
 ![a](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/85c0deea-4d65-42b8-a08a-ab0acfe8e03f)
 
-output :
+## output :
 ![image](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/89c41452-795a-4969-b7ff-42bb8545d129)
 
-input :
+## input :
 ![b](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/17900cf5-39a8-435a-ad17-91ddb41e3e70)
 
-output :
+## output :
 ![image](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/781b80c5-558e-4370-9ca9-6ae685e8f8ce)
 
-input :
+## input :
 ![c](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/9cb29793-1a25-428f-954d-86151961fe21)
 
-output :
+## output :
 ![image](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/5ba4a639-c682-4981-9346-f16de395894b)
-input :
+## input :
 ![d](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/0a029933-d74a-4a36-b89c-1302668af25a)
 
-output :
+## output :
 ![image](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/5a953a90-9b74-4bdf-a15d-51a6797c76d9)
 
-input :
+## input :
 ![e](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/1159b16d-0c43-48ec-8209-3b333c89ccab)
 
-output :
+## output :
 ![image](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/0e0684df-62e4-4204-83a0-fb1c13e2ec1f)
 
-input :
+## input :
 ![f](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/a2d98775-31e4-4065-bd3a-ef7f2dae8227)
 
-output :
+## output :
 ![image](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/a1c6e466-cb7b-4d43-a1d3-aa91586b5a6e)
 
-input :
+## input :
 ![g](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/a545d49a-9913-4fe9-b167-8b97019900e4)
 
-output :
+## output :
 ![image](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/b04a06ab-d98e-498c-8966-83bb560e620e)
 
 
