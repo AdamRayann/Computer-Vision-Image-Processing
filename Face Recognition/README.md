@@ -49,3 +49,5 @@ The implementation successfully detected faces in the provided images using temp
 The choice of threshold for filtering matches significantly affects the detection results. Experiment with different values to optimize.
 Consider the computational cost of Fourier transforms and sliding window operations for large images.
 ### Screenshots:
+![image](https://github.com/AdamRayann/Computer-Vision-Image-Processing/assets/129179113/03e36d62-6437-4f43-905b-8fd2480195a1)
+
